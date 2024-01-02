@@ -43,9 +43,9 @@
             <span class="text-xs text-red-700" id="passwordHelp"></span>
           </div>
   
-          <div class="flex items-center justify-between">
+          <div class="flex items-center justify-between ">
             <button
-              class="bg-blue-600 hover:bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              class="bg-blue-500 hover:bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               type="submit"
             >
               Sign In
