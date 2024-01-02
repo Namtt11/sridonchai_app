@@ -17,7 +17,7 @@
               type="text"
               placeholder="Email"
               aria-describedby="emailHelp"
-              v-model="email"
+              
             />
             <span class="text-xs text-red-700" id="emailHelp"></span>
           </div>
@@ -31,7 +31,7 @@
   
             <input
               aria-describedby="passwordHelp"
-              v-model="password"
+             
   
               class="shadow appearance-none borderrounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
               id="password"
