@@ -10,7 +10,7 @@ const router = createRouter({
     {
       path: '/login',
       name: 'LoginItem',
-      component: Login
+      component: () => import('../views/Login.vue')
     },
     {
       path: '/',
@@ -27,5 +27,5 @@ const router = createRouter({
     }
   ]
 })
-createApp(App).use(router).mount("#app");
+
 export default router
